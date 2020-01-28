@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Adventure Japan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="CSS/normalize.css">
+	<link rel="stylesheet" href="CSS/main.css">
+	<link rel="stylesheet" href="CSS/slideshow.css">
+	<link rel="stylesheet" href="CSS/animation.css">
+	<link rel="stylesheet" href="CSS/media_query.css">
+
+<!-- for the bxSlider plugin -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<!-- required to make slider visible -->	
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+
+</head>
+
+<body>
+<header>
+	<a href="homepage.html"><img src="images/airplane.jpg" id="logo" alt="homepage_image" class="animation"></a>
+	<h2 class="animation"> Adventure Japan </h2>
+	<h3 class="animation"> A magical journey awaits! </h3>
+</header>
+<nav id="nav_bar">
+	<ul>
+	<li><a href="homepage.html" class="current"> Home </a></li>
+	<li><a href="pages/activities.html"> Activities </a>
+		<ul class="mini_menu">
+		<li><a href="pages/hot_springs.html"> Hot Springs </a></li>
+		<li><a href="pages/museums.html"> Museums </a></li>
+		</ul>
+	</li>
+	<li><a href="pages/food.html"> Food </a>
+		<ul class="mini_menu">
+		<li><a href="pages/resturants.html"> Resturants </a></li>
+		<li><a href="pages/street_food.html"> Street Food </a></li>
+		</ul>
+	</li>
+	<li><a href="pages/locations.html"> Locations </a>
+		<ul id="expand" class="mini_menu">
+		<li><a href="pages/shrines.html"> Shrines </a></li>
+		<li><a href="pages/towers.html"> Towers </a></li>
+		<li class="removespace"><a href="pages/other.html"> Other </a></li>
+		</ul>
+	</li>
+	<li><a href="pages/form.html"> Join </a></li>
+	</ul>
+</nav>
+<main>
+
+<section id="home_section">
+<div id="slideshow" class="slider">
+	<div><img src="images/japan_beauty.jpg" id="slide1" class="slide" alt=""></div>
+	<div><img src="images/Rikugien_Garden.jpg" id="slide2" class="slide" alt=""></div>
+	<div><img src="images/tokyo_park_1.jpg" id="slide3" class="slide" alt=""></div>
+	<div><img src="images/tokyo_dessert.jpg" id="slide5" class="slide" alt=""></div>
+	<div><img src="images/wooden handles.jpg" id="slide7" class="slide" alt=""></div>
+</div>
+	<h2 id="intro_header" class="align"> Welcome to Adventure Japan!</h2>
+	<p> Are you planning a trip to Tokyo, Japan, but cannot think of any activities to do while there? Or perhaps you have been to Tokyo and want to know what else it has to offer.
+	This website is full of travel ideas for you to explore. See the "Join" tab at the top to subscribe to our weekly event letter and updates!</p>
+</section>
+
+</main>
+
+<footer>
+ <p> &copy; 2019 Megan Ostrander </p>
+</footer>
+
+</body>
+</html>

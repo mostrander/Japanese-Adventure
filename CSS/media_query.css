@@ -1,0 +1,141 @@
+/*media queries */
+/* standard 960 pixels or less */
+
+@media only screen and (max-width: 959px) {
+	header {
+		padding-top: 2em;
+		padding-bottom: 3em;
+	}
+
+	header h2 {
+		font-size: 2.5em;
+		padding-top: .5em;
+	}
+	header h3 {
+		font-size: 1.60em;
+		padding: 0;
+		padding: 0 0 .5em 17em;
+	}
+}
+
+/* pixels less than 767 */
+
+@media only screen and (max-width: 767px) {
+	header {
+		padding-bottom: 2.5em;
+	}
+
+	#logo {
+		width: 15%;
+		margin: 0;
+		padding: 0;
+		padding: 1em 1em 0 2.5em;
+	}
+	header h2, header h3 {
+		width: 80%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		}
+	section {
+		width: 100%; 
+		font-size: 1.15em;
+	}
+	#nav_bar {
+		width: 100%;
+		font-size: 1em;
+	}
+	.mini_menu {display: none;}
+	
+	/* supplimental style for sub pages */
+	#image1, #image2, #image3, #image4, #image5 {
+		float: none;
+		padding-left: 8em;
+		padding-bottom: 0;
+	}
+	section h2, section h3 {text-align: center;}
+	div {
+		clear: both;
+		float: none;
+	}
+	.space_after {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	#butagumi, #cafe, #muginae, #otako, #tamawarai {
+		padding-top: 0;
+		margin-top: 0;
+	}
+}
+
+/* pixels less than 479 */
+@media only screen and (max-width: 479px) {
+	body {font-size: 100%; }
+	#logo {padding-top: 0;}
+	header h2 {font-size: 2em;}
+	header h3 {font-size: 1.25em;}
+	
+	/* supplimental style for sub pages */
+	section #image1, section #image2, section #image3, 
+	section #image4, section #image5 {
+		padding-left: .5em;
+	}
+
+	#slideshow {display: none;}
+	#home_section {padding-top: 1em;}
+
+	/* styles for specific page elements */
+	section #tokyo, section #ghibli {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	section #chano, section #hyakkaen, section #minatoya {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	section #youtube {
+		margin: .5em;
+		padding: 1em;
+		padding-left: 3.5em;
+	}
+	.big_temple {
+		display: none;
+	}
+	section #tsukiji, section #senoji {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	section #tokyo_skytree, section #tokyo_tower {
+		padding: 0;
+		margin: 0;
+	}
+	section #tokyo_tower {padding-bottom: .5em;}
+	section #rikugien, section #imperial {
+		padding: 0;
+		margin: 0;
+	}
+
+	/* styles for form page */
+	#subscribe_form {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	h1 {font-size: 1.25em;}
+	#first_name_space {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 1em;
+	}
+	#email_address1_space {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 1em;
+	}
+	#email_address2_space {
+		margin: 0;
+		padding: 0;
+	}
+	
+}

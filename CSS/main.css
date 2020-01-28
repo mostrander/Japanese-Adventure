@@ -1,0 +1,153 @@
+/* styles for body */
+body {
+	font-family: serif, "Times New Roman";
+	font-size: 100%;
+	width: 99%;
+	border: 2px solid black;
+	margin: 1em auto;
+}
+
+/* styles for header */
+
+header {
+	width: 100%;
+	padding-bottom: 2em;
+	border-bottom: 2px solid black;
+	background-image: -webkit-linear-gradient(45deg, #151747 0%, #3d42af 30%, #a3a5ce 100%);
+	background-image: -o-linear-gradient(45deg, #151747 0%, #3d42af 30%, #a3a5ce 100%);
+	background-image: -moz-linear-gradient(45deg, #151747 0%, #3d42af 30%, #a3a5ce 100%);
+}
+
+header img {
+	width: 10%;
+	float: left;
+	margin-bottom: 0;
+	padding: 1em 1.5em 0 3em;
+}
+
+header h2 {
+	font-size: 275%;
+	margin-top: 0;
+	padding: .5em 0 0 10em;
+}
+
+header h3 {
+	font-size: 150%;
+	font-style: italic;
+	margin: -.8em 0 0 0;
+	padding-bottom: 1em;
+	padding-left: 26em;
+}
+
+
+
+/*navigation styles */
+
+#nav_bar {border-bottom: 2px solid black; }
+
+#nav_bar ul {
+	margin: 0;
+	padding: 0px;
+	list-style-type: none;
+	position: relative;
+	clear: both;
+}
+
+#nav_bar ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#nav_bar ul li {
+	display: block;
+	float: left;
+	padding: .7em 0;
+	width: 20%;
+	background-color: #f9de0c;
+	text-align: center;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+/*sub menu in nav_bar */
+
+#nav_bar ul ul {
+	display: none;
+	position: absolute;
+}
+
+#nav_bar ul li:hover > ul {
+	display: block;
+}
+
+#nav_bar > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#nav_bar ul ul li {
+	float: none;
+	width: 120%;
+	text-align: center;
+	padding: 1em;
+	font-size: 100%;
+}
+
+nav #expand li {margin-left: 1em; }
+nav #shrink li {margin-right: -6em; }
+
+/* styles for main */
+
+main {
+	width: 100%;
+	font-size: 110%;
+}
+
+/* styles for section */
+
+section {
+	width: 100%;
+	background-color: #a3a5ce;
+	float: left;
+	border-bottom: 2px solid black;
+	padding-bottom: 1em;
+}
+
+section p {
+	padding-left: 4em; 
+	padding-top: 1em;
+	padding-right: 4em;
+}
+
+section div {
+	text-align: center;
+}
+
+.align { 
+	text-align: center; 
+	padding-bottom: 1em;
+}
+
+/* styles for navigation highlighting */
+
+.current {
+	font-style: italic;
+}
+
+
+
+/* styles for footer */
+
+footer {
+	background-color: #f9de0c;
+	clear: both;
+	width: 100%;
+}
+
+footer p {
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 0;
+	font-size: 100%;
+}

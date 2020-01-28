@@ -1,0 +1,26 @@
+/* styles for formatting sub pages for better spacing */
+
+/* styles for section images for subpages */
+
+#image3 {
+	width: 25%;	
+}
+
+
+/* styles for spacing content and images better */
+
+
+#meiji {
+	margin: 2.5em 0;
+	padding-bottom: 1em;
+}
+
+#sensoji {
+	margin: 4em 0em;
+	padding-top: 4em;
+}
+
+#tsukiji {
+	margin: 6.5em 0;
+	padding-top: 7.5em;
+}

@@ -1,0 +1,28 @@
+/* styles for formatting sub pages for better spacing */
+
+/* styles for spacing content better */
+
+section h3 {
+	margin: 1em auto;
+	text-align: center;
+}
+
+#intro {
+	clear: both;
+	margin-left: .75em;
+	margin-top: -1em;
+	padding-bottom: 1em;
+}
+
+#intro_header {
+	padding-top: 1em;
+}
+
+
+/* styles to center content */
+.center { 
+	clear: both;
+	text-align: center; 
+}
+
+.space_after {padding-bottom: 1em; }

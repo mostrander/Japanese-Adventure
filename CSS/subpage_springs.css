@@ -1,0 +1,36 @@
+/* styles for formatting sub pages for better spacing */
+
+/* styles for section images for subpages */
+
+#image1 {
+	margin-top: 0;
+}
+
+
+/* styles for spacing content and images better */
+
+.space_after {padding-bottom: 2.5em; }
+
+#niwa {
+	margin: 3em 0;
+	padding-bottom: 1em;
+}
+
+#spa {
+	padding-top: 5em;
+}
+
+#saya {
+	padding-top: 5em;
+}
+
+
+
+/* styles to center content */
+.center { 
+	clear: both;
+	text-align: center; 
+	padding-top: 2em;
+}
+
+

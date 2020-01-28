@@ -1,0 +1,33 @@
+/* styles for formatting sub pages for better spacing */
+
+/* styles for section images for subpages */
+
+#image1 {
+	margin-top: 0;
+}
+
+
+/* styles for spacing content and images better */
+
+.space_after {padding-bottom: 3em; }
+
+#chano {
+	margin: 4em 0;
+	padding-bottom: 1em;
+}
+
+#hyakkaen {
+	margin: 4em 0em;
+	padding-top: 3em;
+}
+
+#minatoya {
+	margin: 4em 0;
+	padding-top: 4em;
+}
+
+
+#youtube {
+	margin: 1em;
+	margin-left: 30em;
+}

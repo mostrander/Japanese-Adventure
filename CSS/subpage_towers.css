@@ -1,0 +1,21 @@
+/* styles for formatting sub pages for better spacing */
+
+/* styles for section images for subpages */
+
+#image2 {
+	width: 20%;
+}
+
+
+/* styles for spacing content and images better */
+
+
+#tokyo_tower {
+	margin: 10.5em 0;
+	padding-bottom: 2em;
+}
+
+#tokyo_skytree {
+	margin: 13em 0em;
+	margin-bottom: 1em;
+}

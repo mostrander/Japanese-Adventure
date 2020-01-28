@@ -1,0 +1,22 @@
+/* styles for formatting sub pages for better spacing */
+/* use for pages: resturant, museum, shrine, springs, street_food, towers, other */
+
+
+/* styles for section images for subpages */
+
+#image1 {
+	float: left;
+	padding: .75em;
+	margin-left: 4em;
+	margin-bottom: 2em;
+	margin-top: 1.5em;
+}
+
+
+#image2, #image3, #image4, #image5 {
+	clear: both;
+	float: left;
+	padding: .75em;
+	margin-left: 4em;
+	margin-bottom: 2em;
+}

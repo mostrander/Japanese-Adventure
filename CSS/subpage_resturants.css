@@ -1,0 +1,38 @@
+/* styles for formatting sub pages for better spacing */
+
+/* styles for section images for subpages */
+
+#image1 {
+	margin-top: 0;
+}
+
+
+/* styles for spacing content and images better */
+
+
+#butagumi {
+	margin: 4em 0 1em 0;
+	padding-bottom: 1em;
+}
+
+#cafe {
+	margin: 10em 0em;
+	padding-top: 2em;
+}
+
+#muginae {
+	margin: 8em 0;
+	padding-top: 6.5em;
+}
+
+#otako {
+	margin: 7.5em 0;
+	padding-top: 2em;
+}
+
+#tamawarai {
+	margin: 4em 0;
+	padding-top: .5em;
+}
+
+
